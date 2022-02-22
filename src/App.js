@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Inputs from "./components/Inputs";
+import Generator from "./components/Generator";
+// import { useState } from "react";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          MBoeckaert My Art Generator
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 class="App-title">MBoeckaert Art Generator</h1>
+      <Inputs />
+      <Generator />
     </div>
   );
 }
