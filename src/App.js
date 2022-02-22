@@ -1,4 +1,3 @@
-import './App.css';
 import Inputs from "./components/Inputs";
 import Generator from "./components/Generator";
 // import { useState } from "react";
