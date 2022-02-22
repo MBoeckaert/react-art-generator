@@ -6,7 +6,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: aqua;
 }
 
 code {
@@ -17,5 +16,9 @@ code {
 .App {
   width: 100vw;
   height: 100vh;
-  background-color: blue;
+  background: rgb(1,17,38);
+  background: linear-gradient(152deg, rgba(1,17,38,1) 0%, rgba(1,17,38,1) 71%, rgba(149,55,233,1) 100%);
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
 }
+
